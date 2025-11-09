@@ -77,3 +77,30 @@
 //   console.log(total);
 // }
 // cigrette(20, 10);
+
+//Practice All
+// let sami =12;
+// sami=28
+// console.log(sami)
+
+// var a=12;
+// a=25
+// var b=12;
+// console.log(a,b)
+
+// let a =12;
+// let b = 12;
+// console.log(a,b)
+
+// const sami=50;
+// sami=25;
+// console.log(sami)
+
+// let arry =[10,20.20,30,"sami"]
+// console.log(arry[2],"print")
+
+// {
+//   name="sami",
+//   age=20,
+//   adress="delhi"
+// }
