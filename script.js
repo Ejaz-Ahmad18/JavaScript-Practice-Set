@@ -147,3 +147,11 @@
 // for(let i=1; i<=10;i++){
 //   console.log(i)
 // }
+
+//Question user se paassword thoroh while
+
+// let pass="ejaz";
+// let userpasswowrd=prompt("sahi password bataoo");
+// while(pass!==userpasswowrd){
+//    userpasswowrd=prompt("sahi password bataooo");
+// } 
