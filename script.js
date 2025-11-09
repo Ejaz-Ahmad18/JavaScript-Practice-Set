@@ -49,3 +49,14 @@
 
 // let one = delhi.filter(ejaz=> ejaz=="dilsahd")
 // console.log(one ,"print")
+
+
+//Practice Question Function
+// function Nisar(goldflake, indimint) {
+//   debugger;
+//   let ejaz = goldflake;
+//   let dilshad = indimint;
+//   let total = ejaz + dilshad;
+//   console.log(total);
+// }
+// Nisar(15, 10);
