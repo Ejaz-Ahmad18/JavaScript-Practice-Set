@@ -167,3 +167,10 @@
 //     if(i===5)continue;
 //     console.log(i)
 // }
+
+//Function
+
+function Abc(){
+console.log(arguments[2]);
+}
+Abc("Ejaz",23,"ejazahmad@gmail.com")
