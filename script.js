@@ -141,3 +141,9 @@
   
 //  }
 // }
+
+//QUESTION print the numer 1 to 10
+// let num=prompt(" 1 se 10 number print kro")
+// for(let i=1; i<=10;i++){
+//   console.log(i)
+// }
