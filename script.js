@@ -104,3 +104,14 @@
 //   age=20,
 //   adress="delhi"
 // }
+
+//Practice Question 
+//.1  Ask user’s age and check if eligible to vote
+//If age >= 18 → “Eligible”, else → “Not eligible”
+
+// let num=prompt("vote de saktte hai")
+// if(let i=1; i>=18; i++){
+//     console.log("haan vote de sakte hai")
+// }else{
+//     console.log("nhi to vote nhi de saktte")
+// }
