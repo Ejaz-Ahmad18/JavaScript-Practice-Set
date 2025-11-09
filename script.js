@@ -60,3 +60,20 @@
 //   console.log(total);
 // }
 // Nisar(15, 10);
+
+// function Nisar(a, b) {
+//   let ejaz = Number(prompt("Enter first number:"));
+//   let dilsahd = Number(prompt("Enter second number:"));
+//   let total = ejaz + dilsahd;
+//   document.getElementById("nisarkah1").innerHTML = total;
+// }
+// Nisar();
+
+//Practice More
+// function cigrette(classic, indimint) {
+//   let afroz = classic;
+//   let ejaz = indimint;
+//   let total = afroz - ejaz;
+//   console.log(total);
+// }
+// cigrette(20, 10);
