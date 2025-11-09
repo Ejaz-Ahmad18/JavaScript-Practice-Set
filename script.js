@@ -115,3 +115,12 @@
 // }else{
 //     console.log("nhi to vote nhi de saktte")
 // }
+
+//QUESTION voter age avalibe 
+
+// let age = prompt("Apni age likho:");
+// if (age >= 18) {
+//   console.log("Haan, aap vote de sakte ho!");
+// } else {
+//   console.log("Nahi, aap abhi vote nahi de sakte.");
+// }
