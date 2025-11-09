@@ -124,3 +124,20 @@
 // } else {
 //   console.log("Nahi, aap abhi vote nahi de sakte.");
 // }
+
+// QUESTION user se password
+
+// let sahipass="ejaz";
+// let first=prompt("sahi password do");
+// if(first===sahipass){
+//   console.log("open ho gya");
+// }else{
+//  let second=prompt("sahi password do");
+//  if(second===sahipass){
+// console.log("glat pass hai");
+//  }
+//  else{
+//   console.console.error("accont blocked");
+  
+//  }
+// }
