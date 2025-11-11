@@ -377,9 +377,19 @@
 //  abc()()();
  
 
-////function ( IIFE (immediately invoked function expressin))
+//function ( IIFE (immediately invoked function expressin))
 
-(function(){
-    console.log("hey")
-})();
+// (function(){
+//     console.log("hey")
+// })();
 
+
+//function (Hoisting differences betwwen declaraction and expression)
+
+//function decleration (statement)
+
+abc();
+
+function abc(){
+    console.log("hello")
+}
