@@ -251,14 +251,27 @@
 //     }if(counter===5)break;
 // }
 
-//Function Learning
+//Function Learning(function declartion,function expression,function arrow)
 
-function Ejaz(){
-console.log("my nmae is ejaz ahmad")
-}
-Ejaz()
+// function Ejaz(){
+// console.log("my nmae is ejaz ahmad")
+// }
+// Ejaz()
 
-let ahmad=()=>{
-    console.log("my name is ahmad")
+// let ahmad=()=>{
+//     console.log("my name is ahmad")
+// }
+// ahmad()
+
+//function ( parameter, arguments)
+
+function val(val1,val2){
+    console.log(val1+val2)
 }
-ahmad()
+val(10,20)
+
+let ejaz=(a)=>{
+    console.log(a)
+}
+ejaz(10+25)
+
