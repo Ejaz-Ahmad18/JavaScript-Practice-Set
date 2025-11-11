@@ -388,8 +388,16 @@
 
 //function decleration (statement)
 
+// abc();
+
+// function abc(){
+//     console.log("hello")
+// }
+
+//function expression (statement)
+
 abc();
 
-function abc(){
+let abc=function(){
     console.log("hello")
 }
