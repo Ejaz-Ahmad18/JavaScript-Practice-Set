@@ -284,8 +284,16 @@
 // val()
 
 //Rest
-function val(...val){
-    console.log(val)
-}
-val(1,2,3,4,5)
+// function val(...val){
+//     console.log(val)
+// }
+// val(1,2,3,4,5)
 
+//function ( return value, early value)
+
+//Return
+function abc(){
+    return 12;
+}
+let val=abc()
+console.log(val)
