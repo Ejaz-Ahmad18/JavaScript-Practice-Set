@@ -396,8 +396,19 @@
 
 //function expression (statement)
 
-abc();
+// abc();
 
-let abc=function(){
-    console.log("hello")
+// let abc=function(){
+//     console.log("hello")
+// }
+
+//practice-question-10- convert to arrow function
+
+// function multiply(a,b){
+//     return a*b;
+// }
+
+let multiply=(a,b)=>{
+     return a*b;
 }
+console.log(multiply(1,3))
