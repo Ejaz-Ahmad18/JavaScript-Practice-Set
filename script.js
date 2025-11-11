@@ -439,4 +439,4 @@ function checkAge(age){
         return"allowed";
 
 }
-console.log(checkAge(20));
+console.log(checkAge(22));
