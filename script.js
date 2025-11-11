@@ -351,11 +351,29 @@
 
 //function ( closures $ lexical scoping)
 
+//closures
+// function abc(){
+//     let a=12;
+//     return function(){
+//         console.log(a)
+//     }
+// }
+// abc()();
+
+// lexical scoping
 function abc(){
-    let a=12;
-    return function(){
-        console.log(a)
+    let a=10;
+    function def(){
+        let b=15;
+        function ghi(){
+            let c=20;
+            console.log(a,b,c)
+        }
+        return ghi;
     }
+    return def;
+    
 }
-abc()();
+ abc()()();
  
+
