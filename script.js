@@ -265,13 +265,21 @@
 
 //function ( parameter, arguments)
 
-function val(val1,val2){
+// function val(val1,val2){
+//     console.log(val1+val2)
+// }
+// val(10,20)
+
+// let ejaz=(a)=>{
+//     console.log(a)
+// }
+// ejaz(10+25)
+
+//function ( default, rest, and, spread parameter)
+
+//Default
+function val(val1=5,val2=5){
     console.log(val1+val2)
 }
-val(10,20)
-
-let ejaz=(a)=>{
-    console.log(a)
-}
-ejaz(10+25)
+val()
 
