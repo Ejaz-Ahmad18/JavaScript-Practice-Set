@@ -186,9 +186,22 @@
 
 // question --print all the number 1 to 50 that are disivile by 3
 
-for(let i=1; i<50;i++){
-    if(i%3===0){
-    console.log(i)
-    }
+// for(let i=1; i<50;i++){
+//     if(i%3===0){
+//     console.log(i)
+//     }
+// }
+
+//Question--Ask the user for a number and print wheather each number from 1 to thaat is even or odd
+
+let val=prompt("number dalo");
+for(let i=1;i<=val;i++){
+if(i%2===0){
+    console.log(`${i} - this is even numner`)
+}else{
+    console.log(`${i} - this is odd number`)
 }
+}
+
+
 
