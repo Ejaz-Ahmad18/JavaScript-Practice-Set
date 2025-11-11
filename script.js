@@ -292,8 +292,20 @@
 //function ( return value, early value)
 
 //Return
-function abc(){
-    return 12;
+// function abc(val){
+//     return 12 +val;
+// }
+// let val=abc(25)
+// console.log(val)
+
+//Early Return value
+
+function abc(val){
+    if(val<25) return"a";
+    else  if(val<50) return"b";
+    else  if(val<75) return"c";
+    else  if(val<100) return"d";
+else return "e"
 }
-let val=abc()
-console.log(val)
+abc(100)
+console.log(abc(100))
