@@ -422,11 +422,21 @@
 
 //practice-question-12-use rest paramater toacceptany number of scores andreturn the total
 
-function getScore(...val){
-let total=0;
-val.forEach(function(val) {
-    total=total+val;
-});
-return total;
+// function getScore(...val){
+// let total=0;
+// val.forEach(function(val) {
+//     total=total+val;
+// });
+// return total;
+// }
+// console.log( getScore(1,2,3,4,5));
+
+//practice-question-12- check this code in early return 
+
+function checkAge(age){
+    if(age<18) return"too young";
+    
+        return"allowed";
+
 }
-console.log( getScore(1,2,3,4,5));
+console.log(checkAge(20));
