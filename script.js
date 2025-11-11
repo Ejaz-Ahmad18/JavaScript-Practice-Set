@@ -312,11 +312,22 @@
 
 //function ( first class function)
 
-function abc(val){
-val();
+// function abc(val){
+// val();
+
+// }
+
+// abc(function(){
+// console.log("ejaz")
+// })
+
+//function ( higher oder function)
+
+function abc(){
+return function(){
+console.log("hey")
+}
 
 }
 
-abc(function(){
-console.log("ejaz")
-})
+abc()()
