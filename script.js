@@ -214,12 +214,18 @@
 
 //Question -- stop at first multiple of 7
 
-for(let i=1; i<=101;i++){
-     console.log(i)
-    if(i%7===0){
-        break;
-    }
+// for(let i=1; i<=101;i++){
+//      console.log(i)
+//     if(i%7===0){
+//         break;
+//     }
    
+// }
+
+//Question-- skip multiple of 3
+
+for(let i=1; i<=21;i++ ){
+  if(i%3===0)continue;
+  console.log(i)
+
 }
-
-
