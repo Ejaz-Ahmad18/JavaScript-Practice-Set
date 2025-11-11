@@ -335,16 +335,27 @@
 
 //function ( pure vs impure)
 
-let a=12;
+// let a=12;
+
+// function abc(){
+//     console.log("my name is ejaz")
+// }
+// abc()
+// function def(){
+//     a++;
+   
+// }
+// def()
+// console.log(a)
+
+
+//function ( closures $ lexical scoping)
 
 function abc(){
-    console.log("my name is ejaz")
+    let a=12;
+    return function(){
+        console.log(a)
+    }
 }
-abc()
-function def(){
-    a++;
-   
-}
-def()
-console.log(a)
+abc()();
  
