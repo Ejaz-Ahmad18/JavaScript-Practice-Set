@@ -415,7 +415,18 @@
 
 
 //practice-question-11-find parameter and arguments
-function welcome(name){
-    console.log(name);
+// function welcome(name){
+//     console.log(name);
+// }
+// welcome("Ejaz")
+
+//practice-question-12
+
+function getScore(...val){
+let total=0;
+val.forEach(function(val) {
+    total=total+val;
+});
+return total;
 }
-welcome("Ejaz")
+console.log( getScore(1,2,3,4,5));
