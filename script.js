@@ -420,7 +420,7 @@
 // }
 // welcome("Ejaz")
 
-//practice-question-12
+//practice-question-12-use rest paramater toacceptany number of scores andreturn the total
 
 function getScore(...val){
 let total=0;
