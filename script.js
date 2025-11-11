@@ -408,7 +408,14 @@
 //     return a*b;
 // }
 
-let multiply=(a,b)=>{
-     return a*b;
+// let multiply=(a,b)=>{
+//      return a*b;
+// }
+// console.log(multiply(1,3))
+
+
+//practice-question-11-find parameter and arguments
+function welcome(name){
+    console.log(name);
 }
-console.log(multiply(1,3))
+welcome("Ejaz")
