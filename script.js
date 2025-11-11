@@ -275,11 +275,17 @@
 // }
 // ejaz(10+25)
 
-//function ( default, rest, and, spread parameter)
+//function Parameter( default, rest, spread parameter)
 
 //Default
-function val(val1=5,val2=5){
-    console.log(val1+val2)
+// function val(val1=5,val2=5){
+//     console.log(val1+val2)
+// }
+// val()
+
+//Rest
+function val(...val){
+    console.log(val)
 }
-val()
+val(1,2,3,4,5)
 
