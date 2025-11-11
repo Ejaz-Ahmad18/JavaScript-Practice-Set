@@ -206,10 +206,20 @@
 
 //Question-- count how many numbers between 1 to 100 are disivile by both 3 and 5
 
-for(let i=1 ; i<=101; i++){
-    if(i%3===0 && i%5===0){
-        console.log(i)
+// for(let i=1 ; i<=101; i++){
+//     if(i%3===0 && i%5===0){
+//         console.log(i)
+//     }
+// }
+
+//Question -- stop at first multiple of 7
+
+for(let i=1; i<=101;i++){
+     console.log(i)
+    if(i%7===0){
+        break;
     }
+   
 }
 
 
