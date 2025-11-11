@@ -243,10 +243,22 @@
 //     }
 //   }
 
-let counter=0;
-for(let i=1; i<=101;i++){
-    if(i%2===1){
-        counter++;
-        console.log(i)
-    }if(counter===5)break;
+// let counter=0;
+// for(let i=1; i<=101;i++){
+//     if(i%2===1){
+//         counter++;
+//         console.log(i)
+//     }if(counter===5)break;
+// }
+
+//Function Learning
+
+function Ejaz(){
+console.log("my nmae is ejaz ahmad")
 }
+Ejaz()
+
+let ahmad=()=>{
+    console.log("my name is ahmad")
+}
+ahmad()
