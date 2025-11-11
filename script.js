@@ -300,12 +300,23 @@
 
 //Early Return value
 
+// function abc(val){
+//     if(val<25) return"a";
+//     else  if(val<50) return"b";
+//     else  if(val<75) return"c";
+//     else  if(val<100) return"d";
+// else return "e"
+// }
+// abc(100)
+// console.log(abc(100))
+
+//function ( first class function)
+
 function abc(val){
-    if(val<25) return"a";
-    else  if(val<50) return"b";
-    else  if(val<75) return"c";
-    else  if(val<100) return"d";
-else return "e"
+val();
+
 }
-abc(100)
-console.log(abc(100))
+
+abc(function(){
+console.log("ejaz")
+})
