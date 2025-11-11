@@ -194,14 +194,22 @@
 
 //Question--Ask the user for a number and print wheather each number from 1 to thaat is even or odd
 
-let val=prompt("number dalo");
-for(let i=1;i<=val;i++){
-if(i%2===0){
-    console.log(`${i} - this is even numner`)
-}else{
-    console.log(`${i} - this is odd number`)
-}
-}
+// let val=prompt("number dalo");
+// for(let i=1;i<=val;i++){
+// if(i%2===0){
+//     console.log(`${i} - this is even numner`)
+// }else{
+//     console.log(`${i} - this is odd number`)
+// }
+// }
 
+
+//Question-- count how many numbers between 1 to 100 are disivile by both 3 and 5
+
+for(let i=1 ; i<=101; i++){
+    if(i%3===0 && i%5===0){
+        console.log(i)
+    }
+}
 
 
