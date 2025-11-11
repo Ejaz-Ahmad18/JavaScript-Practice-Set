@@ -177,8 +177,18 @@
 
 // question --print the number 1 to 100 using loop
 
-let sum=0
-for(let i=1;i<101;i++){
-    sum=sum+1;
+// let sum=0
+// for(let i=1;i<101;i++){
+//     sum=sum+1;
+// }
+// console.log(sum)
+
+
+// question --print all the number 1 to 50 that are disivile by 3
+
+for(let i=1; i<50;i++){
+    if(i%3===0){
+    console.log(i)
+    }
 }
-console.log(sum)
+
