@@ -175,7 +175,7 @@
 // }
 // Abc("Ejaz",23,"ejazahmad@gmail.com")
 
-//print the number 1 to 100 using loop
+// question --print the number 1 to 100 using loop
 
 let sum=0
 for(let i=1;i<101;i++){
