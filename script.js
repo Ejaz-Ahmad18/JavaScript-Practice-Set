@@ -224,8 +224,29 @@
 
 //Question-- skip multiple of 3
 
-for(let i=1; i<=21;i++ ){
-  if(i%3===0)continue;
-  console.log(i)
+// for(let i=1; i<=21;i++ ){
+//   if(i%3===0)continue;
+//   console.log(i)
+// }
 
+
+//Question-- print first 5 odd number only
+
+// let counter = 0;
+// for(let i=1;i<=101;i++){
+//     if(i%2 !==0){
+//         console.log(i)
+//         counter++;
+//     }
+//     if(counter>=5){
+//         break;
+//     }
+//   }
+
+let counter=0;
+for(let i=1; i<=101;i++){
+    if(i%2===1){
+        counter++;
+        console.log(i)
+    }if(counter===5)break;
 }
