@@ -323,11 +323,28 @@
 
 //function ( higher oder function)
 
+// function abc(){
+// return function(){
+// console.log("hey")
+// }
+
+// }
+
+// abc()()
+
+
+//function ( pure vs impure)
+
+let a=12;
+
 function abc(){
-return function(){
-console.log("hey")
+    console.log("my name is ejaz")
 }
-
+abc()
+function def(){
+    a++;
+   
 }
-
-abc()()
+def()
+console.log(a)
+ 
