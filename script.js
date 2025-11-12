@@ -573,5 +573,10 @@
 
 //practice-question-19- insert "red" and "blue" at index 1 in this array
 
-let color=["pink","yellow","green"];
-color.splice(1,0, "red","blue")
+// let color=["pink","yellow","green"];
+// color.splice(1,0, "red","blue")
+
+//practice-question-20- Extract only the middle 3 elemnts from this array
+
+let items=[1,2,3,4,5,6,7];
+let newarr=items.slice(1,4)
