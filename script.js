@@ -443,8 +443,15 @@
 
 // ARRAY //
 
-//practice-question-13- Modify the array
+//practice Modify the array
 
-let arr=[1,2,3,4,5];
-console.log(arr[2]);
+// let arr=[1,2,3,4,5];
+// console.log(arr[2]);
+
+// ARRAY METHOD //
+
+// Array ( push )
+
+ let arr=[1,2,3,4,5];
+ arr.push(10);
 
