@@ -493,9 +493,24 @@
 //   });
 
 // Array ( map )
+//    let arr=[1,2,3,4,5];
+//    let newarr=arr.map(function(val){
+//     return 12;
+//   });
+
+
+// Array ( map )
+//    let arr=[1,2,3,4,5];
+//    let newarr=arr.map(function(val){
+//     if(val>0) return val;
+//   });
+
+
+// Array ( filter )
    let arr=[1,2,3,4,5];
-   let newarr=arr.map(function(val){
-    return 12;
+   let newarr=arr.filter(function(val){
+    // return true;
+      if(val>0) return true;
   });
 
 
