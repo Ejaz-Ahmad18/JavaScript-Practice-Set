@@ -433,10 +433,18 @@
 
 //practice-question-12- check this code in early return 
 
-function checkAge(age){
-    if(age<18) return"too young";
+// function checkAge(age){
+//     if(age<18) return"too young";
     
-        return"allowed";
+//         return"allowed";
 
-}
-console.log(checkAge(22));
+// }
+// console.log(checkAge(22));
+
+// ARRAY //
+
+//practice-question-13- Modify the array
+
+let arr=[1,2,3,4,5];
+console.log(arr[2]);
+
