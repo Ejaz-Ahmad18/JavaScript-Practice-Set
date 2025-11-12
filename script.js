@@ -528,14 +528,20 @@
 //   });
 
 // Array ( find )
-   let arr=[
-    {id:1, key:1},
-    {id:2, key:2},
-    {id:3, key:1},
-    {id:4, key:3},
-   ];
-   
-   let newarr=arr.find(function( val){
-    return  val.key===1;
-  },0);
+//    let arr=[
+//     {id:1, key:1},
+//     {id:2, key:2},
+//     {id:3, key:1},
+//     {id:4, key:3},
+//    ];
 
+//    let newarr=arr.find(function( val){
+//     return  val.key===1;
+//   },0);
+
+
+// Array ( some )
+   let arr=[1,2,3,4,5];
+   let newarr=arr.some(function(val){
+   return val>3;
+   });
