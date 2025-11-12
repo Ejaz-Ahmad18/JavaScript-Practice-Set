@@ -455,6 +455,10 @@
 //  arr.push(10);
 
 // Array ( pop )
- let arr=[1,2,3,4,5];
- arr.pop();
+//  let arr=[1,2,3,4,5];
+//  arr.pop();
 
+
+ // Array ( shift )
+ let arr=[1,2,3,4,5];
+ arr.shift();
