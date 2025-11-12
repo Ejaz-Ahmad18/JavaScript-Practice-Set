@@ -460,5 +460,9 @@
 
 
  // Array ( shift )
+//  let arr=[1,2,3,4,5];
+//  arr.shift();
+
+ // Array ( unshift )
  let arr=[1,2,3,4,5];
- arr.shift();
+ arr.unshift(0);
