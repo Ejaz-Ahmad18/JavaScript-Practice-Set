@@ -481,9 +481,15 @@
 //   arr.reverse();
 
 // Array ( sort )
+//    let arr=[1,2,3,4,5];
+//   let newarr= arr.sort(function(a,b){
+//     return b-a;
+//   });
+
+// Array ( forEach )
    let arr=[1,2,3,4,5];
-  let newarr= arr.sort(function(a,b){
-    return b-a;
+   arr.forEach(function(val){
+    console.log (val+5);
   });
 
 
