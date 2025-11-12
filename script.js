@@ -541,12 +541,18 @@
 
 
 // Array ( some )
-   let arr=[1,2,3,4,5];
-   let newarr=arr.some(function(val){
-   return val>3;
-   });
+//    let arr=[1,2,3,4,5];
+//    let newarr=arr.some(function(val){
+//    return val>3;
+//    });
 
-   //practice-question-14- cretae an array with 3 fruits and the second fruits
+   //practice-question-15- cretae an array with 3 fruits and the second fruits
 
-   let fruits=["apple","orange","banana"];
-   console.log(fruits[1])
+//    let fruits=["apple","orange","banana"];
+//    console.log(fruits[1])
+
+   //practice-question-16- add "mango" at the end "pineapple" at the beginning og this array
+
+   let fruits=["apple","mango","orange",];
+   fruits.push("pineapple");
+   fruits.unshift("mango");
