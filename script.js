@@ -441,17 +441,20 @@
 // }
 // console.log(checkAge(22));
 
+
 // ARRAY //
 
 //practice Modify the array
-
 // let arr=[1,2,3,4,5];
 // console.log(arr[2]);
 
 // ARRAY METHOD //
 
 // Array ( push )
+//  let arr=[1,2,3,4,5];
+//  arr.push(10);
 
+// Array ( pop )
  let arr=[1,2,3,4,5];
- arr.push(10);
+ arr.pop();
 
