@@ -578,5 +578,16 @@
 
 //practice-question-20- Extract only the middle 3 elemnts from this array
 
-let items=[1,2,3,4,5,6,7];
-let newarr=items.slice(1,4)
+// let items=[1,2,3,4,5,6,7];
+// let newarr=items.slice(1,4)
+
+//practice-question-21- sort this array alphabetically and then reverse it:
+
+let names=["Ejaz","Manjar","Ahmad","Babu"];
+let newnames=names.sort(function(a,b){
+    return a-b;
+});
+names.reverse()
+console.log(newnames);
+
+
