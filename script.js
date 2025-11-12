@@ -545,3 +545,8 @@
    let newarr=arr.some(function(val){
    return val>3;
    });
+
+   //practice-question-14- cretae an array with 3 fruits and the second fruits
+
+   let fruits=["apple","orange","banana"];
+   console.log(fruits[1])
