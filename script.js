@@ -567,5 +567,11 @@
 
 //practice-question-18-   remove the last item from this array using method
 
-let num=[1,2,3,4,5];
-num.pop()
+// let num=[1,2,3,4,5];
+// num.pop()
+
+
+//practice-question-19- insert "red" and "blue" at index 1 in this array
+
+let color=["pink","yellow","green"];
+color.splice(1,0, "red","blue")
