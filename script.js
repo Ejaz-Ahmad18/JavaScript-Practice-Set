@@ -515,8 +515,27 @@
 
 
 // Array ( reduce )
-   let arr=[1,2,3,4,5];
-   let newarr=arr.reduce(function(accumulator , val){
-    return accumulator+ val;
+//    let arr=[1,2,3,4,5];
+//    let newarr=arr.reduce(function(accumulator , val){
+//     return accumulator+ val;
+//   },0);
+
+
+// Array ( find )
+//    let arr=[1,2,3,4,5];
+//    let newarr=arr.find(function(val){
+//    return val===1;
+//   });
+
+// Array ( find )
+   let arr=[
+    {id:1, key:1},
+    {id:2, key:2},
+    {id:3, key:1},
+    {id:4, key:3},
+   ];
+   
+   let newarr=arr.find(function( val){
+    return  val.key===1;
   },0);
 
