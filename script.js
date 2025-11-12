@@ -477,6 +477,13 @@
 //   arr.splice(2,1);
 
 // Array ( revesre )
+//    let arr=[1,2,3,4,5];
+//   arr.reverse();
+
+// Array ( sort )
    let arr=[1,2,3,4,5];
-  arr.reverse();
+  let newarr= arr.sort(function(a,b){
+    return b-a;
+  });
+
 
