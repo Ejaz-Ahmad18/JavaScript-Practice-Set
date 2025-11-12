@@ -487,9 +487,15 @@
 //   });
 
 // Array ( forEach )
+//    let arr=[1,2,3,4,5];
+//    arr.forEach(function(val){
+//     console.log (val+5);
+//   });
+
+// Array ( map )
    let arr=[1,2,3,4,5];
-   arr.forEach(function(val){
-    console.log (val+5);
+   let newarr=arr.map(function(val){
+    return 12;
   });
 
 
