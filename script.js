@@ -548,7 +548,23 @@
 
 
 // Array ( every )
-   let arr=[1,2,3,4,5];
-   let newarr=arr.every(function(val){
-   return val>0;
-   });
+//    let arr=[1,2,3,4,5];
+//    let newarr=arr.every(function(val){
+//    return val>0;
+//    });
+
+// Array ( Destructuring )
+//    let arr=[1,2,3,4,5];
+//  let [a,,b]=arr;
+
+
+ // Array ( spread operators )
+//    let arr=[1,2,3,4,5];
+//  let arr2=[...arr];
+
+
+//practice-question-14- cretae an array with 3 fruits and the second fruits
+
+let arr=["apple","banana","orange"];
+ console.log(arr[2]);
+ 
