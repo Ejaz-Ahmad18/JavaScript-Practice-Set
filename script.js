@@ -560,6 +560,12 @@
 
   //practice-question-17- replace "banana" with "kiwi" in this array
 
-  let fruits=["apple","orange","banana"];
-  fruits.pop();
-  fruits.push("kiwi")
+//   let fruits=["apple","orange","banana"];
+//   fruits.pop();
+//   fruits.push("kiwi")
+
+
+//practice-question-18-   remove the last item from this array using method
+
+let num=[1,2,3,4,5];
+num.pop()
