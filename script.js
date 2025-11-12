@@ -553,6 +553,13 @@
 
    //practice-question-16- add "mango" at the end "pineapple" at the beginning og this array
 
-   let fruits=["apple","mango","orange",];
-   fruits.push("pineapple");
-   fruits.unshift("mango");
+//    let fruits=["apple","mango","orange",];
+//    fruits.push("pineapple");
+//    fruits.unshift("mango");
+
+
+  //practice-question-17- replace "banana" with "kiwi" in this array
+
+  let fruits=["apple","orange","banana"];
+  fruits.pop();
+  fruits.push("kiwi")
