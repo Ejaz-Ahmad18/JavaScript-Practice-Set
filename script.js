@@ -469,6 +469,10 @@
 
 
  // Array ( splice )
+//   let arr=[1,2,3,4,5];
+//  let newarr= arr.splice(0,3);
+
+// Array ( slice )
   let arr=[1,2,3,4,5];
   arr.splice(2,1);
 
