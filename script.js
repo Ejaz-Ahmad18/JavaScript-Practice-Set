@@ -541,7 +541,14 @@
 
 
 // Array ( some )
+//    let arr=[1,2,3,4,5];
+//    let newarr=arr.some(function(val){
+//    return val>3;
+//    });
+
+
+// Array ( every )
    let arr=[1,2,3,4,5];
-   let newarr=arr.some(function(val){
-   return val>3;
+   let newarr=arr.every(function(val){
+   return val>0;
    });
