@@ -649,6 +649,14 @@
 
  //practice-question-30 - merge two array using spread operators
 
- let a=[1,2,3,];
- let b=[4,5,6];
- let newnum=[...a,...b]
+//  let a=[1,2,3,];
+//  let b=[4,5,6];
+//  let newnum=[...a,...b]
+
+
+ //practice-question-31 - add "india" to the start of this array using spread
+
+ let countries=["usa","japan"];
+  countries=["india",...countries]
+  console.log(countries)
+  
