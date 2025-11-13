@@ -583,11 +583,18 @@
 
 //practice-question-21- sort this array alphabetically and then reverse it:
 
-let names=["Ejaz","Manjar","Ahmad","Babu"];
-let newnames=names.sort(function(a,b){
-    return a-b;
-});
-names.reverse()
-console.log(newnames);
+// let names=["Ejaz","Manjar","Ahmad","Babu"];
+// let newnames=names.sort(function(a,b){
+//     return a-b;
+// });
+// names.reverse()
+// console.log(newnames);
 
+//practice-question-22- use.map() to square each number
+
+let num=[1,2,3,4,5];
+let newnum=num.map(function(val){
+   return val * val;
+})
+console.log(newnum)
 
