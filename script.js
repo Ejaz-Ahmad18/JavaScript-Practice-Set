@@ -608,9 +608,18 @@
 
 //practice-question-25- use .reduce() to find the sum of this array
 
- let num=[10,20,50,48,12,75]
- let newnum=num.reduce(function( accumulator,val){
-    return accumulator+ val;
- },0)
- console.log(newnum)
+//  let num=[10,20,50,48,12,75]
+//  let newnum=num.reduce(function( accumulator,val){
+//     return accumulator+ val;
+//  },0)
+//  console.log(newnum)
+
+//practice-question-26- use .find() to get the first number less than 10:
+
+  let num=[10,20,50,48,12,75]
+  let newnum=num.find(function( val){
+    return val <20 ;
+  });
+  console.log(newnum)
+
 
