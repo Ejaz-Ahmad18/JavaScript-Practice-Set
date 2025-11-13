@@ -635,9 +635,15 @@
 
 //practice-question-28 - use .every() to check if all numbers are even:
 
-    let num=[10,20,50,48,12]
-   let newnum=num.every(function( val){
-      if(val%2===0) return val ;
-   });
-   console.log(newnum)
+   //  let num=[10,20,50,48,12]
+   // let newnum=num.every(function( val){
+   //    if(val%2===0) return val ;
+   // });
+   // console.log(newnum)
+
+ //practice-question-29  destructuure this array to get firstname and lastname
+ 
+ let num=["ejaz","ahmad"]
+   let [firtname,lastname] =num;
+ console.log(num)
 
