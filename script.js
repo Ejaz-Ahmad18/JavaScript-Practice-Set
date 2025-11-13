@@ -600,9 +600,17 @@
 
 //practice-question-23- use .filter() to keep number greter than 10
 
-let num=[10,20,50,48,12,75]
-let newnum=num.filter(function(val){
-   return val>10
-})
-console.log(newnum)
+// let num=[10,20,50,48,12,75]
+// let newnum=num.filter(function(val){
+//    return val>10
+// })
+// console.log(newnum)
+
+//practice-question-24- use .reduce() to find the sum of this array
+
+ let num=[10,20,50,48,12,75]
+ let newnum=num.reduce(function( accumulator,val){
+    return accumulator+ val;
+ },0)
+ console.log(newnum)
 
