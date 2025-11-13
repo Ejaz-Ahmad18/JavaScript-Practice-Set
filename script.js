@@ -656,7 +656,12 @@
 
  //practice-question-31 - add "india" to the start of this array using spread
 
- let countries=["usa","japan"];
-  countries=["india",...countries]
-  console.log(countries)
+//  let countries=["usa","japan"];
+//   countries=["india",...countries]
+//   console.log(countries)
   
+ //practice-question-32 - clone this array properly ( not by refrence)
+
+ let num=[1,2,3,4,5];
+ let newnum=[...num];
+ console.log(newnum);
