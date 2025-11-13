@@ -643,7 +643,12 @@
 
  //practice-question-29  destructuure this array to get firstname and lastname
  
- let num=["ejaz","ahmad"]
-   let [firtname,lastname] =num;
- console.log(num)
+//  let num=["ejaz","ahmad"]
+//    let [firtname,lastname] =num;
+//  console.log(num)
 
+ //practice-question-30 - merge two array using spread operators
+
+ let a=[1,2,3,];
+ let b=[4,5,6];
+ let newnum=[...a,...b]
