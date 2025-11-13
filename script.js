@@ -592,9 +592,17 @@
 
 //practice-question-22- use.map() to square each number
 
-let num=[1,2,3,4,5];
-let newnum=num.map(function(val){
-   return val * val;
+// let num=[1,2,3,4,5];
+// let newnum=num.map(function(val){
+//    return val * val;
+// })
+// console.log(newnum)
+
+//practice-question-23- use .filter() to keep number greter than 10
+
+let num=[10,20,50,48,12,75]
+let newnum=num.filter(function(val){
+   return val>10
 })
 console.log(newnum)
 
