@@ -606,7 +606,7 @@
 // })
 // console.log(newnum)
 
-//practice-question-24- use .reduce() to find the sum of this array
+//practice-question-25- use .reduce() to find the sum of this array
 
  let num=[10,20,50,48,12,75]
  let newnum=num.reduce(function( accumulator,val){
