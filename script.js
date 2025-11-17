@@ -683,3 +683,15 @@ return a+b;
 }
 let ans=add(10,12)
 console.log(ans)
+
+//--Question-Set-03-- write a function with a defaut parameter name = "guest" that prints "hi <name>"
+
+function Name( Guest){
+console.log("Hi,Guest ")
+}
+Name()
+
+function greeting(guest="Guest"){
+console.log(`Hi ${guest}`);
+}
+greeting("Ejaz")
