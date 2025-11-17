@@ -669,4 +669,9 @@
 
 //-------- NEW QUESTION PRACTICE SET ALL OF JAVASCRIPT ------- //
 
+//--Question-01-- Write a function sayHelo() that prints "hello javascript"
 
+function sayHello(){
+   console.log("Hello JavaScript")
+}
+sayHello();
