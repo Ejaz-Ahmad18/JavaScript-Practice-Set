@@ -695,3 +695,16 @@ function greeting(guest="Guest"){
 console.log(`Hi ${guest}`);
 }
 greeting("Ejaz")
+
+//--Question-Set-04-- use rest parameter to make a function that adds unlimited numbers
+
+function Number(a,b,c,d,e,f,h){
+console.log(a,b,c,d,e,f,h)
+}
+ Number(13,10,2,5,3,8,7)
+
+ function addunlimited(...val){
+console.log(val)
+}
+ addunlimited(13,10,2,5,3,8,7)
+
