@@ -662,6 +662,11 @@
   
  //practice-question-32 - clone this array properly ( not by refrence)
 
- let num=[1,2,3,4,5];
- let newnum=[...num];
- console.log(newnum);
+//  let num=[1,2,3,4,5];
+//  let newnum=[...num];
+//  console.log(newnum);
+
+
+//-------- NEW QUESTION PRACTICE SET ALL OF JAVASCRIPT ------- //
+
+
