@@ -678,33 +678,72 @@ sayHello();
 
 //--Question-Set-02-- create a function add (a,b) that return their sum and log the result
 
-function add(a,b){
-return a+b;
-}
-let ans=add(10,12)
-console.log(ans)
+// function add(a,b){
+// return a+b;
+// }
+// let ans=add(10,12)
+// console.log(ans)
 
 //--Question-Set-03-- write a function with a defaut parameter name = "guest" that prints "hi <name>"
 
-function Name( Guest){
-console.log("Hi,Guest ")
-}
-Name()
+// function Name( Guest){
+// console.log("Hi,Guest ")
+// }
+// Name()
 
-function greeting(guest="Guest"){
-console.log(`Hi ${guest}`);
-}
-greeting("Ejaz")
+//------------------//
+// function greeting(guest="Guest"){
+// console.log(`Hi ${guest}`);
+// }
+// greeting("Ejaz")
 
 //--Question-Set-04-- use rest parameter to make a function that adds unlimited numbers
 
-function Number(a,b,c,d,e,f,h){
-console.log(a,b,c,d,e,f,h)
-}
- Number(13,10,2,5,3,8,7)
+// function Number(a,b,c,d,e,f,h){
+// console.log(a,b,c,d,e,f,h)
+// }
+//  Number(13,10,2,5,3,8,7)
 
- function addunlimited(...val){
-console.log(val)
-}
- addunlimited(13,10,2,5,3,8,7)
+//--------------//
+//  function addunlimited(...val){
+// console.log(val)
+// }
+//  addunlimited(13,10,2,5,3,8,7)
+
+//----------------//
+//   function unlimited(...val){
+//    val.forEach(function(num){
+// console.log(num);
+//    });
+// }
+//  unlimited(13,10,2,5,3,8,7)
+
+ //----------------//
+//    function numbers(...total){
+//       let sum=0;
+//    total.forEach(function(add){
+//       sum =sum + add;
+//    });
+//    console.log(sum);
+// }
+//  numbers(13,10,2,5,3,8,7)
+
+ //-----------------//
+//   function numbers(...total){
+//   let ans= total.reduce(function(acum,add){
+//       return acum+add;
+      
+//    },0);
+//    console.log(ans);
+// }
+//  numbers(13,10,2,5,3,8,7)
+
+
+
+ //--Question-Set-05-- create an IIFE that prints " I run Instantly"
+
+(function(){
+console.log("ejaz!");
+})();
+
 
