@@ -675,3 +675,11 @@ function sayHello(){
    console.log("Hello JavaScript")
 }
 sayHello();
+
+//--Question-Set-02-- create a function add (a,b) that return their sum and log the result
+
+function add(a,b){
+return a+b;
+}
+let ans=add(10,12)
+console.log(ans)
