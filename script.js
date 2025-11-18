@@ -902,4 +902,22 @@ let newnumbes=numbes.every(function(val){
 })
 console.log(newnumbes)
 
+//--Question-Set-19-- create an objcet user and test the behaviour of object freeze() and object.seal() by adding/ chnaging keys
 
+//Freeze()
+let user={
+   name:"Ejaz",
+   Age:22
+}
+Object.freeze(user)
+console.log(user)
+
+
+//object.seal()
+let usez={
+   name:"Ejaz",
+   Age:22
+}
+usez.name="ahmad"
+Object.seal(usez)
+console.log(usez)
