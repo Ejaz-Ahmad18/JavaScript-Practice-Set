@@ -795,3 +795,16 @@ for( let key in obj){
 setTimeout(function(){
    console.log("Time's Up")
 },2000);
+
+
+//--Question-Set-11-- write a higher-oder funcion runTwice(fn) that takes anothers function and executes it two times
+
+function runTwice(fn){
+fn();
+fn();
+}
+runTwice(function(){
+   console.log("hello")
+})
+
+
