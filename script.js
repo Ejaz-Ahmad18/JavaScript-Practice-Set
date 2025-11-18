@@ -876,4 +876,13 @@ let newnumb=numb.filter(function(val){
 console.log(newnumb)
 
 
+//--Question-Set-17-- use reduce() to find the total salary from an array of numbers [1000,2000,3000]
+
+let salary=[1000,2000,3000];
+let total=salary.reduce(function(acc,val){
+   return acc+val;
+},0)
+console.log(total)
+
+
 
