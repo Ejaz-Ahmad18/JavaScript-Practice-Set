@@ -859,8 +859,13 @@ let fnc2=()=>{
 };
 obn.fnc()
 
+//--Question-Set-15-- given an aray of numbers, use map() to create a new array where each number is requered
 
-
+let num=[,1,2,3,4,5,6];
+let newnum=num.map(function(val){
+   return val+5;
+})
+console.log(newnum)
 
 
 
