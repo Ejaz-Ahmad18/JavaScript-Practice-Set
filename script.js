@@ -885,4 +885,21 @@ let total=salary.reduce(function(acc,val){
 console.log(total)
 
 
+//--Question-Set-18-- create an array of names and use some() and every() to test a condition (e.g, all names longer than 3 chars)
+
+//some()
+let numbe=["ejaz","dilshad","sami","manjar"];
+let newnumbe=numbe.some(function(val){
+   return val.length >3;
+})
+console.log(newnumbe)
+
+
+//every()
+let numbes=[10,21,32,45,58,61];
+let newnumbes=numbes.every(function(val){
+   return val>5;
+})
+console.log(newnumbes)
+
 
