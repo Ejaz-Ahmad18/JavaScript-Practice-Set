@@ -760,7 +760,19 @@ sayHello();
 
 //--Question-Set-07--create an array of 5 fruits . add one at the end and remove one from the begining
 
-let fruits=["apple","ornage","kiwi","banana","grapes"]
-fruits.push("papaya");
-fruits.shift();
-console.log(fruits)
+// let fruits=["apple","ornage","kiwi","banana","grapes"]
+// fruits.push("papaya");
+// fruits.shift();
+// console.log(fruits)
+
+//--Question-Set-08-- use a loop to print all emements of an array
+
+let arr=[1,2,3,4,5,6,7,8];
+for( let arr=1 ;arr<9;arr++){
+   console.log(arr)
+}
+
+let arry=[1,2,3,4,5,6,7,8];
+for( let i=0; i<arry.length;i++){
+   console.log(arry[i])
+}
