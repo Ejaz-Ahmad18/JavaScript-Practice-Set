@@ -809,14 +809,29 @@ runTwice(function(){
 
 
 //--Question-Set-12-- create one pure function that always returns the same output for given input, and one impure function using a global variable
+
 let vm=12;
 
+//pure
 function ejaz(){
 console.log("hello")
 }
 ejaz()
+
+//impure
 function vale(val){
 vm++;
    console.log(vm)
 }
 vale(12)
+
+//--Question-Set-13-- write a function that uses object destructing inside parameters to extract and print name and age
+
+function student(name,age){
+console.log(name,age)
+}
+student({name:"ejaz", age:22})
+
+
+
+
