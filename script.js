@@ -921,3 +921,19 @@ let usez={
 usez.name="ahmad"
 Object.seal(usez)
 console.log(usez)
+
+//--Question-Set-20-- create a nested object ( user-->adress --> city and access) the city name inside it.
+
+let obz={
+  
+    user:{
+ name:"ejaz",
+ address:{
+   city:"katihar"
+ }
+    }
+}
+
+// obz.user.address.city
+let{city} =obz.user.address;
+console.log(`${city}`)
