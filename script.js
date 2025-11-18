@@ -827,10 +827,39 @@ vale(12)
 
 //--Question-Set-13-- write a function that uses object destructing inside parameters to extract and print name and age
 
-function student(name,age){
-console.log(name,age)
+function student({Name,Age}){
+console.log(Name,Age)
 }
-student({name:"ejaz", age:22})
+student({Name:"Ejaz", Age:22})
+
+
+//--Question-Set-14-- demonstrate the difference between normal function and arrow function when used as objet methods (this isue)
+
+// let obn={
+//    Name:"ejaz",
+//    fnc: function(){
+// console.log(this)
+//    },
+// fnc2:()=>{
+//    console.log(this)
+// },
+// };
+// obn.fnc();
+// obn.fnc2();
+
+let obn={
+   Name:"ejaz",
+   fnc: function(){
+let fnc2=()=>{
+   console.log(this)
+   }
+   fnc2()
+   },
+   
+};
+obn.fnc()
+
+
 
 
 
