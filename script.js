@@ -749,12 +749,18 @@ sayHello();
 
  //--Question-Set-06-- makae a nested where the one prints a variable from the outer one
 
- function abc(){
-   let a=12;
-   function def (){
-console.log(a)
-   }
-   def()
- }
-abc();
+//  function abc(){
+//    let a=12;
+//    function def (){
+// console.log(a)
+//    }
+//    def()
+//  }
+// abc();
 
+//--Question-Set-07--create an array of 5 fruits . add one at the end and remove one from the begining
+
+let fruits=["apple","ornage","kiwi","banana","grapes"]
+fruits.push("papaya");
+fruits.shift();
+console.log(fruits)
