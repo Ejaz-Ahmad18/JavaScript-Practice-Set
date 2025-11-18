@@ -788,3 +788,10 @@ city:"katihar"
 for( let key in obj){
    console.log (obj[key]);
 }
+
+
+//--Question-Set-10-- use setTimeout() to log "time's up" after 2 seconds
+
+setTimeout(function(){
+   console.log("Time's Up")
+},2000);
