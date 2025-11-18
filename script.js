@@ -742,8 +742,19 @@ sayHello();
 
  //--Question-Set-05-- create an IIFE that prints " I run Instantly"
 
-(function(){
-console.log("ejaz!");
-})();
+// (function(){
+// console.log("ejaz!");
+// })();
 
+
+ //--Question-Set-06-- makae a nested where the one prints a variable from the outer one
+
+ function abc(){
+   let a=12;
+   function def (){
+console.log(a)
+   }
+   def()
+ }
+abc();
 
