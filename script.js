@@ -808,3 +808,15 @@ runTwice(function(){
 })
 
 
+//--Question-Set-12-- create one pure function that always returns the same output for given input, and one impure function using a global variable
+let vm=12;
+
+function ejaz(){
+console.log("hello")
+}
+ejaz()
+function vale(val){
+vm++;
+   console.log(vm)
+}
+vale(12)
