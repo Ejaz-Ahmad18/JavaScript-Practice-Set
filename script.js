@@ -861,11 +861,19 @@ obn.fnc()
 
 //--Question-Set-15-- given an aray of numbers, use map() to create a new array where each number is requered
 
-let num=[,1,2,3,4,5,6];
+let num=[1,2,3,4,5,6];
 let newnum=num.map(function(val){
    return val+5;
 })
 console.log(newnum)
+
+//--Question-Set-16-- use filter() to get only even numbers from an array
+
+let numb=[10,21,32,45,58,61];
+let newnumb=numb.filter(function(val){
+   return val%2===0;
+})
+console.log(newnumb)
 
 
 
