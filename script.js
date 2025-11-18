@@ -776,3 +776,15 @@ let arry=[1,2,3,4,5,6,7,8];
 for( let i=0; i<arry.length;i++){
    console.log(arry[i])
 }
+
+
+//--Question-Set-09--  create an object person with keys name, age, and city, and prit each key's value
+//using for in loop
+let obj ={
+name:"ejaz",
+age:22,
+city:"katihar"
+}
+for( let key in obj){
+   console.log (obj[key]);
+}
