@@ -937,3 +937,21 @@ let obz={
 // obz.user.address.city
 let{city} =obz.user.address;
 console.log(`${city}`)
+
+
+//--Question-Set-21-- create an object anda add five name and their salary and add the all salary
+
+let objt={
+   dilshad:200,
+   ejaz:200,
+   sami:200,
+}
+let sum=0;
+for(let key in objt){
+ sum += objt[key];
+}
+
+console.log(sum)
+
+
+
